@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(206, 255, 240); */
+}
+section{
+    background-image: url('./photos/back3.jpg');
+}
+.area{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid rgb(13, 209, 183);
+    animation: mymove 5s infinite;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    background-color: white;
+   
+
+
+}
+
+.image{
+    width: 335px;
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+ img{
+    width: inherit;
+    height: inherit;
+  
+}
+
+.div{
+    width: 200px;
+    height: 43px;
+    margin: auto;
+
+}
+
+
+
+@keyframes mymove {
+  50% {box-shadow: 13px 23px 33px rgb(13, 209, 183);}
+}
+
